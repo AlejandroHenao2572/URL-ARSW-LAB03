@@ -1,4 +1,3 @@
-import java.io.*;
 import java.net.*;
 
 
@@ -24,8 +23,5 @@ public class EjercicioURL1 {
         System.out.println(pataconURL.getFile());
         //Imprimir la referencia
         System.out.println(pataconURL.getRef());
-        
-
-
     }
 }

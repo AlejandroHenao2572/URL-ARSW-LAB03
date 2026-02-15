@@ -41,3 +41,50 @@ En lugar del formato deprecado:
 ```java
 URL nombre = new URL("url");
 ```
+
+---
+
+## EjercicioURL2
+
+### Descripcion
+
+Este programa permite al usuario ingresar una URL y descarga todo el contenido HTML de esa pagina web, guardandolo en un archivo local llamado "resultado.html".
+
+### Funcionalidad del Codigo
+
+El programa EjercicioURL2.java realiza las siguientes operaciones:
+
+1. Solicita al usuario que ingrese una URL mediante la consola
+2. Crea un objeto URL a partir de la entrada del usuario
+3. Abre una conexion a la URL y lee su contenido linea por linea usando BufferedReader
+4. Escribe cada linea leida en un archivo HTML local usando BufferedWriter
+5. Maneja excepciones para URLs invalidas o problemas de conexion
+6. Muestra un mensaje de confirmacion cuando el archivo se guarda exitosamente
+
+### Ejemplos de Uso
+
+**Input Valido:**
+```
+Ingrese la URL: 
+https://www.example.com
+```
+Resultado: Crea el archivo "resultado.html" con el contenido HTML de la pagina.
+
+**Input Invalido:**
+```
+Ingrese la URL: 
+htp://pagina-que-no-existe.com
+```
+Resultado: Muestra el mensaje "La URL ingreasada no es valida" y termina el programa.
+
+**Otros ejemplos de URLs validas:**
+- https://www.google.com
+- https://docs.oracle.com/javase/tutorial/
+- http://info.cern.ch
+
+### Archivo de Salida
+
+El programa genera un archivo llamado "resultado.html" en el mismo directorio donde se ejecuta. Este archivo contiene todo el codigo HTML de la pagina web consultada.
+
+### Archivo HTML generado visto en un navegador
+![alt text](img/image.png)
