@@ -1,5 +1,9 @@
 # URL-ARSW-LAB03
 
+## Realizado por:
+- David Alejandro Patacon Henao
+- Daniel Felipe Hueso Rueda
+
 ## Descripcion
 
 Este proyecto es un ejercicio practico que demuestra el uso de la clase URL en Java para analizar y extraer los diferentes componentes de una direccion web.
